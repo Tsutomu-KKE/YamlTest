@@ -1,0 +1,11 @@
+!Company
+Employees: 
+  - &A !Employee
+    Name: A
+    Age: 30
+Groups: 
+  - !Group
+    Name: G
+    Employees: 
+      - *A
+Name: Googol
